@@ -11,9 +11,9 @@ float m = -0.6527; //Slope
 float b = 1.30; //Y-Intercept 
 float R0 = 21.91; //Sensor Resistance in fresh air from previous code
 
-String apiKey = "VK8KPOZH48MIM81E";     //  Enter your Write API key from ThingSpeak
-const char* ssid =  "Shrimoorthy";     // Enter your WiFi Network's SSID
-const char* pass =  "Angammal"; // Enter your WiFi Network's Password
+String apiKey = "Your API key here";     //  Enter your Write API key from ThingSpeak
+const char* ssid =  "";     // Enter your WiFi Network's SSID
+const char* pass =  ""; // Enter your WiFi Network's Password
 const char* server = "api.thingspeak.com";
  
 float humi;

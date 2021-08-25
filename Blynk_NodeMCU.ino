@@ -9,7 +9,7 @@
 SoftwareSerial s(D6,D5); // setting D6-Rx ping and D5-Tx pin
  
 // We should get Auth Token from the Blynk App.
-char auth[] = "g3lkjc1kZ4bW4jtN-jRR-4xSYGggwHN8";
+char auth[] = "Your Auth Token Here";
 int sensorValue;          //the AOUT pin of the CO sensor goes into analog pin A0 of the arduino
 float m = -0.6527; //Slope 
 float b = 1.30; //Y-Intercept 
@@ -17,8 +17,8 @@ float R0 = 21.91; //Sensor Resistance in fresh air from previous code
  
 // WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Shrimoorthy";
-char pass[] = "Angammal";
+char ssid[] = "";
+char pass[] = "";
  
 #define DHTPIN 2          // D3
 #define DHTTYPE DHT11     // DHT 11
