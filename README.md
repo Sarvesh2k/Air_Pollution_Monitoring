@@ -56,14 +56,14 @@ This project was a team project done as a part of the programme elective coursew
 
 ### Hardware Code
 
-Refer to the `project report` file to understand how the code works and how to implement it. The Arduino files have been provided in the `Hardware Codes` folder. Make sure to install the following libraries in the Arduino IDE:
+Refer to the `Project Report.pdf` file to understand how the code works and how to implement it. The Arduino files have been provided in the `Hardware Codes` folder. Make sure to install the following libraries in the Arduino IDE:
 
 - ArduinoJSON Library
 - NodeMCU Library (to provide support for coding the NodeMCU board in the Arduino IDE)
 
 ### Analytics
 
-Refer to the `project report` file to understand how the code works. the Notebooks have been provided in the `Analytics` folder.
+Refer to the `Project Report.pdf` file to understand how the code works. the Notebooks have been provided in the `Analytics` folder.
 NOTE: Download the data.csv folder and load the file before running the code. 
 
 ### Website Frontend
