@@ -6,6 +6,7 @@ Therefore, this project aims to collect data about the concentration of NO2, CO2
 
 This project was a team project done as a part of the programme elective coursework "Internet of Things" offered by the Electronics and Communication Department of the National Institute of Technology, Tiruchirappalli.
 
+
 ## Hardware and Software Requirements
 
 ### Components, Sensors, and Boards Required
@@ -25,6 +26,7 @@ This project was a team project done as a part of the programme elective coursew
 - [Thingspeak IoT Cloud](https://thingspeak.com/) – For reading and visualizing sensor values
 - [Blynk App](https://blynk.io/) – Mobile App for reading sensor value
 
+
 ## The Prototype Designed
 
 <div align="center">
@@ -32,19 +34,23 @@ This project was a team project done as a part of the programme elective coursew
 </div>
 <p align="center"><i>Top View</i></p>
 
+
 <div align="center">
 <img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic2.jpg" width="650">
 </div>
 <p align="center"><i>Side View</i></p>
+
 
 <div align="center">
 <img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic3.JPG" width="650">
 </div>
 <p align="center"><i>Description of Component</i></p>
 
+
 ## Demo Video (Click to Watch)
 
 [![Watch the video](https://img.youtube.com/vi/z_8ENrIU1NQ/maxresdefault.jpg)](https://youtu.be/z_8ENrIU1NQ)
+
 
 ## How to Use
 
@@ -64,12 +70,14 @@ NOTE: Download the data.csv folder and load the file before running the code.
 
 In addition, the source code for the website has also been provided to show how the real time data can be monitored in a cloud hosted website. It can be viewed in the `Website` folder. For details on hosting a website in google firebase, it has been well documented in the [firebase website](https://firebase.google.com/docs) itself.
 
+
 ## Quick Links
 
 - [Thingspeak IoT Dashboard](https://thingspeak.com/channels/1371486)
 - [The hosted website](https://air-pollution-98b87.web.app/Air_pollution0.html)
 
 NOTE: The the prototype isn't powered on currently, and hence you won't be able to view any readings in real time for now.
+
 
 ### Contributors
 
