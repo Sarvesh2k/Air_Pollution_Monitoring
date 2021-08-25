@@ -30,21 +30,52 @@ This project was a team project done as a part of the programme elective coursew
 Top view:
 
 <div align="center">
-<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic1.jpg" width="450">
+<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic1.jpg" width="450">
 </div>
 
 Side view:
 
 <div align="center">
-<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic1.jpg" width="450">
+<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic2.jpg" width="450">
 </div>
 
 Component Description:
 
 <div align="center">
-<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic1.jpg" width="450">
+<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic3.JPG" width="450">
 </div>
 
-## How to Use:
+## Demo Video
 
-Refer to the `project report` file to understand how the code works and how to implement it. In addition, the source code for the website has also been provided to show how the real time data can be monitored in a cloud hosted website.
+[![Watch the video](https://img.youtube.com/vi/z_8ENrIU1NQ/maxresdefault.jpg)](https://youtu.be/z_8ENrIU1NQ)
+
+## How to Use
+
+### Hardware Code
+
+Refer to the `project report` file to understand how the code works and how to implement it. The Arduino files have been provided in the `Hardware Codes` folder. Make sure to install the following libraries in the Arduino IDE:
+
+- ArduinoJSON Library
+- NodeMCU Library (to provide support for coding the NodeMCU board in the Arduino IDE)
+
+### Analytics
+
+Refer to the `project report` file to understand how the code works. the Notebooks have been provided in the `Analytics` folder.
+NOTE: Download the data.csv folder and load the file before running the code. 
+
+### Website Frontend
+
+In addition, the source code for the website has also been provided to show how the real time data can be monitored in a cloud hosted website. It can be viewed in the `Website` folder. For details on hosting a website in google firebase, it has been well documented in the firebase website itself.
+
+## Quick Links
+
+- [Thingspeak IoT Dashboard](https://thingspeak.com/channels/1371486)
+- [The hosted website](https://air-pollution-98b87.web.app/Air_pollution0.html)
+
+NOTE: The the prototype isn't powered on currently, and hence you won't be able to view any readings in real time for now.
+
+### Contributors
+
+- V. Shri Sarvesh
+- Adithya Sineesh
+- Balaji K S
