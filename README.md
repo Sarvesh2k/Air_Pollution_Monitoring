@@ -10,42 +10,39 @@ This project was a team project done as a part of the programme elective coursew
 
 ### Components, Sensors, and Boards Required
 
-- To Measure Concentration of Carbon Monoxide in ppm – MQ7 Sensor
-- To Measure Concentration of Methane, Butane and LPG in ppm – MQ 2 sensor
-- To measure General Air Quality in ppm (CO2, NO2, NOx) – MQ135 Sensor
-- Node MCU
-- Arudino UNO
+- To Measure Concentration of Carbon Monoxide in ppm – [MQ7 Sensor](https://www.sparkfun.com/products/9403)
+- To Measure Concentration of Methane, Butane and LPG in ppm – [MQ 2 sensor](https://www.sparkfun.com/products/17049)
+- To measure General Air Quality in ppm (CO2, NO2, NOx) – [MQ135 Sensor](https://quartzcomponents.com/products/mq-135-air-quality-gas-sensor-module)
+- [Node MCU](https://www.nodemcu.com/index_en.html)
+- [Arudino UNO](https://store-usa.arduino.cc/products/arduino-uno-rev3/)
 
 ### Software Requirements
 
 - Arduino IDE 1.6.13 – To code the Arduino UNO and the Node MCU
 - HTML, CSS, Javascript – For designing the website
 - Google Collaboratory – For model training and Prediction
-- Google Firebase – For hosting the website on the cloud
-- Thingspeak IoT Cloud – For reading and visualizing sensor values
-- Blynk App – Mobile App for reading sensor value
+- [Google Firebase](https://firebase.google.com/) – For hosting the website on the cloud
+- [Thingspeak IoT Cloud](https://thingspeak.com/) – For reading and visualizing sensor values
+- [Blynk App](https://blynk.io/) – Mobile App for reading sensor value
 
 ## The Prototype Designed
 
-Top view:
+<div align="center">
+<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic1.jpg" width="650">
+</div>
+<p align="center"><i>Top View</i></p>
 
 <div align="center">
-<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic1.jpg" width="450">
+<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic2.jpg" width="650">
 </div>
-
-Side view:
+<p align="center"><i>Side View</i></p>
 
 <div align="center">
-<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic2.jpg" width="450">
+<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic3.JPG" width="650">
 </div>
+<p align="center"><i>Description of Component</i></p>
 
-Component Description:
-
-<div align="center">
-<img src="https://github.com/Sarvesh2k/Air_Pollution_Monitoring/blob/main/pic3.JPG" width="450">
-</div>
-
-## Demo Video
+## Demo Video (Click to Watch)
 
 [![Watch the video](https://img.youtube.com/vi/z_8ENrIU1NQ/maxresdefault.jpg)](https://youtu.be/z_8ENrIU1NQ)
 
@@ -65,7 +62,7 @@ NOTE: Download the data.csv folder and load the file before running the code.
 
 ### Website Frontend
 
-In addition, the source code for the website has also been provided to show how the real time data can be monitored in a cloud hosted website. It can be viewed in the `Website` folder. For details on hosting a website in google firebase, it has been well documented in the firebase website itself.
+In addition, the source code for the website has also been provided to show how the real time data can be monitored in a cloud hosted website. It can be viewed in the `Website` folder. For details on hosting a website in google firebase, it has been well documented in the [firebase website](https://firebase.google.com/docs) itself.
 
 ## Quick Links
 
